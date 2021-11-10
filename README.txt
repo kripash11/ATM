@@ -1,3 +1,22 @@
+# Getting Started
+
+Prerequisites,
+
+1. Eclipse(STS)/VS Code
+2. Postman
+3. lombok jar has to be installed on the eclipse/STS
+
+Starting the server: 
+1. If we are running this code from an IDE like Eclipse/ Spring tool suite, Import this as an Maven project and Run As--> Spring boot App 
+2.  If we are running the jar file in the base folder , just go to Terminal/Command prompt and do java -jar <jarname>
+
+Application runs in default port 8080. You can just hit localhost:8080/health ib browser to ensure the app is up and running
+
+To Execute the Use cases/ Test/ Use the application
+1. import the post man collection (Sailpoint-ATM.postman_collection.json) into postman app in local and you can change/playaround with the values and
+execute any test cases for validation.
+
+
 This ATM application has 6 capabilities,
 
 1. Create PIN
